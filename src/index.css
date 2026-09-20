@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-playfair: 'Playfair Display', Georgia, serif;
+    --font-garamond: 'EB Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #f7f3e8;
+    color: #3d2b1f;
+    overflow-x: hidden;
+    background-image: 
+      radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.08) 0%, transparent 60%),
+      linear-gradient(to bottom, #fbf8f1 0%, #f7f2e6 50%, #f3ede0 100%);
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-playfair);
+    color: #2c1b10;
+  }
+
+  .font-cinzel {
+    font-family: var(--font-cinzel);
+  }
+
+  .font-garamond {
+    font-family: var(--font-garamond);
+  }
+}
+
+/* Custom historical paper and gold glow for light parchment theme */
+.parchment-sheet {
+  background: #fdfaf4;
+  border: 1px solid rgba(197, 160, 89, 0.35);
+  box-shadow: 0 4px 20px -2px rgba(92, 64, 33, 0.07), 0 1px 3px rgba(92, 64, 33, 0.05);
+}
+
+.paper-edge {
+  box-shadow: 0 6px 24px -4px rgba(74, 48, 24, 0.12), inset 0 0 35px rgba(206, 185, 149, 0.25);
+  border: 1px solid rgba(197, 160, 89, 0.35);
+}
+
+.museum-case {
+  background: linear-gradient(145deg, #fffdf8 0%, #f7f2e5 100%);
+  border: 1px solid rgba(197, 160, 89, 0.38);
+  box-shadow: 0 8px 24px -4px rgba(77, 52, 27, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+.gold-border {
+  border-color: rgba(184, 138, 42, 0.35);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #875c12 0%, #b88a2a 50%, #704b08 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.antique-scroll::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.antique-scroll::-webkit-scrollbar-track {
+  background: #ede4d3;
+}
+
+.antique-scroll::-webkit-scrollbar-thumb {
+  background: #c5ad88;
+  border-radius: 4px;
+}
+
+.antique-scroll::-webkit-scrollbar-thumb:hover {
+  background: #a68b5a;
+}
+
+@keyframes inkPulse {
+  0%, 100% { opacity: 0.7; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.04); }
+}
+
+.ink-pulse {
+  animation: inkPulse 4s ease-in-out infinite;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Full-bleed dark museum bands for readable light text */
+.museum-band {
+  background: #140e09;
+  color: #f0e6d6;
+}
+
+.museum-band h2,
+.museum-band h3 {
+  color: #fff8e8;
+}
+
+.museum-band .text-\[\#fff2d6\],
+.museum-band .text-\[\#fff5e0\],
+.museum-band .text-\[\#fff0d1\],
+.museum-band .text-\[\#fff8e8\] {
+  color: #fff8e8 !important;
+}
+
+.museum-band .text-\[\#ded2be\],
+.museum-band .text-\[\#bfaea0\],
+.museum-band .text-\[\#c4b5a0\],
+.museum-band .text-\[\#a89b88\],
+.museum-band .text-\[\#b8a792\] {
+  color: #e0d4c0 !important;
+}
+
+.museum-band .text-\[\#d6c5b0\],
+.museum-band .text-\[\#c8b9a6\] {
+  color: #e8dcc8 !important;
+}
+
+

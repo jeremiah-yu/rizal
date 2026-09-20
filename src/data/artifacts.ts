@@ -1,0 +1,121 @@
+import { MuseumArtifact } from '../types';
+
+export const MUSEUM_ARTIFACTS: MuseumArtifact[] = [
+  {
+    id: 'noli-me-tangere',
+    title: 'First Edition of "Noli Me Tangere"',
+    subtitle: 'Berliner Buchdruckerei-Action-Gesellschaft (March 1887)',
+    date: 'March 1887',
+    location: 'Berlin, Germany',
+    medium: 'Letterpress print on machine-made antique paper, 2,000 initial run',
+    whatIsThis: 'The original 1887 Berlin printed copy of Jose Rizal’s foundational social novel, titled after the Latin phrase in the Gospel of Saint John ("Touch Me Not"). Its cover was designed by Rizal himself, featuring symbolic motifs including friar feet, a whip, a hairy leg, a graveyard cross, and a laurel branch.',
+    whyIsItImportant: 'It exposed the virulent social cancer consuming the Philippines under Spanish monastic hegemony. By portraying real colonial types—Crisostomo Ibarra, Maria Clara, Padre Damaso, Elias, and Sisa—Rizal shattered the silence surrounding friar corruption, colonial administrative indolence, and native suffering.',
+    relatedEvent: 'Publication funded by the eleventh-hour financial loan of 300 pesos from Dr. Maximo Viola when Rizal was starving in cold Berlin. Copies were smuggled inside boxes into Manila and secretly circulated among Filipino patriots.',
+    curatorNotes: 'Preserved under high-security climate control at the National Library of the Philippines. The original proof sheets bear handwritten corrections in Rizal’s purple ink.',
+    badge: 'Foundational Text of Philippine Nationalism'
+  },
+  {
+    id: 'el-filibusterismo',
+    title: 'First Edition of "El Filibusterismo"',
+    subtitle: 'F. Meyer-van Loo Press, Ghent (September 1891)',
+    date: 'September 1891',
+    location: 'Ghent, Belgium',
+    medium: 'Letterpress novel dedicated to Fathers Gomez, Burgos, and Zamora',
+    whatIsThis: 'The political sequel to Noli Me Tangere, darker in tone, examining revolution, vengeance, and the moral cost of colonial oppression through the character of Simoun.',
+    whyIsItImportant: 'It pushed the Propaganda debate from reformist satire toward the tragic logic of uprising—while still warning that violence without virtue destroys the nation.',
+    relatedEvent: 'Printing was rescued by Valentin Ventura after Rizal ran out of funds in Ghent. Rizal gifted him the original manuscript.',
+    curatorNotes: 'Dedicated to the memory of the Gomburza martyrs executed in 1872.',
+    badge: 'Political Sequel of the Revolution of Thought'
+  },
+  {
+    id: 'ateneo-medal',
+    title: 'Ateneo Municipal de Manila Sobresaliente Medal',
+    subtitle: 'Medalla de Honor al Mérito Académico (1872–1877)',
+    date: 'March 1877',
+    location: 'Intramuros, Manila',
+    medium: 'Engraved bronze-gilt with maroon and gold ribbon',
+    whatIsThis: 'One of the five prized academic merit medals awarded to student Jose Rizal Mercado during his secondary education under the Jesuit fathers at the Ateneo Municipal de Manila.',
+    whyIsItImportant: 'It signifies Rizal’s extraordinary intellectual ascent in the Jesuit competitive hierarchy, where he rose from an external day-scholar to the honored position of "Emperor" of his classroom. His consecutive sobresaliente (excellent) marks demonstrated that Filipino youths could surpass peninsular Spaniards in classical humanities, sciences, and mathematics.',
+    relatedEvent: 'Conferred during the graduation ceremonies of March 23, 1877, where Rizal received his Bachiller en Artes diploma with supreme distinction.',
+    curatorNotes: 'The medal features the Jesuit insignia (IHS) surrounded by a laurel wreath and Latin motto "Ad Majorem Dei Gloriam".',
+    badge: 'Scholastic Excellence'
+  },
+  {
+    id: 'surveyor-diploma',
+    title: 'Perito Agrimensor y Tasador de Tierras Diploma',
+    subtitle: 'Surveyor and Expert Assessor Certification',
+    date: 'Passed 1877 (Conferred 1881)',
+    location: 'Ateneo Municipal de Manila',
+    medium: 'Calligraphed parchment with Spanish colonial seals and ribbons',
+    whatIsThis: 'Official professional certificate conferring upon Jose Rizal the title of expert land surveyor and property assessor, obtained through vocational study at the Ateneo while he concurrently attended university lectures at Santo Tomas.',
+    whyIsItImportant: 'This vocational qualification demonstrated Rizal’s rare blend of scientific precision, practical engineering aptitude, and classicist scholarship. It gave him practical skills he later applied in his survey of the Dominican hacienda in Calamba and in constructing the Dapitan municipal water system.',
+    relatedEvent: 'Although he completed examinations at age 17 in 1877, Spanish colonial regulations required a candidate to be 20 years old to formally practice; the title was officially issued in 1881 upon reaching legal age.',
+    curatorNotes: 'Includes official signatures of Ateneo rector Father Juan Bautista Heras, S.J. and colonial education inspectors.',
+    badge: 'Civil Engineering Credential'
+  },
+  {
+    id: 'amor-patrio',
+    title: '"Amor Patrio" Autograph Manuscript',
+    subtitle: 'First Patriotic Essay Authored on European Soil',
+    date: 'June 1882',
+    location: 'Barcelona, Spain',
+    medium: 'Iron gall ink on laid European paper, penned under the pseudonym "Laong Laan"',
+    whatIsThis: 'The original manuscript of Rizal’s stirring essay "Amor Patrio" (Love of Country), sent to Basilio Teodoro Moran in Manila and published in the bilingual reformist newspaper Diariong Tagalog on August 20, 1882.',
+    whyIsItImportant: 'It was Rizal’s first published political work written on European soil and introduced his famous pen name "Laong Laan" (Ever Prepared / Long Pledged). It was translated into Tagalog by Marcelo H. del Pilar, marking the first historic literary collaboration between the two greatest leaders of the Propaganda Movement.',
+    relatedEvent: 'Written days after his arrival in Barcelona following his secret departure from Manila. It urged Filipinos to love their native land unconditionally, regardless of hardship or exile.',
+    curatorNotes: 'The prose displays Rizal’s romantic nationalism influenced by European liberal thinkers while maintaining an intense, personal nostalgia for the Philippine landscape.',
+    badge: 'First Patriotic Manifesto'
+  },
+  {
+    id: 'madrid-diploma',
+    title: 'Universidad Central de Madrid Licentiate Records',
+    subtitle: 'Degrees in Medicine and Philosophy and Letters (1884–1885)',
+    date: 'June 1884 & June 1885',
+    location: 'Madrid, Spain',
+    medium: 'Official royal seals, vellum manuscript registration sheets',
+    whatIsThis: 'The university diplomas and academic transcripts of Jose Rizal from the Universidad Central de Madrid, certifying completion of his Licentiate in Medicine (June 1884) and Licentiate in Philosophy and Letters (June 1885).',
+    whyIsItImportant: 'The licentiates legally licensed Rizal to practice general medicine throughout the Spanish realm and proved his mastery of classical philosophy, literature, and world history. His sobresaliente graduation in Philosophy refuted colonial claims of native intellectual inferiority.',
+    relatedEvent: 'Celebrated during the same period as the historic June 25, 1884 Brindis speech at Hotel Ingles, where Rizal toasted Juan Luna and Felix Resurreccion Hidalgo before leading Spanish politicians and intellectuals.',
+    curatorNotes: 'Preserved in the Archivo Histórico Nacional in Madrid under the registration series for overseas colonial students.',
+    badge: 'European Academic Licentiate'
+  },
+  {
+    id: 'ophthalmology-kit',
+    title: '19th-Century Ophthalmic Surgical Set & Ophthalmoscope',
+    subtitle: 'Instruments of Dr. Louis de Wecker & Dr. Otto Becker',
+    date: '1885–1886',
+    location: 'Paris & Heidelberg',
+    medium: 'Surgical carbon steel, ivory handles, optical lenses, velvet-lined brass case',
+    whatIsThis: 'A specialized surgical kit consisting of delicate cataract knives (Graefe knives), iridectomy forceps, lens curettes, and an indirect Helmholtz ophthalmoscope identical to those utilized by Rizal during his apprenticeships in Paris and Heidelberg.',
+    whyIsItImportant: 'Rizal’s primary personal motivation for specializing in ophthalmology was filial devotion: to surgically remove the dense cataracts blinding his beloved mother, Doña Teodora Alonso Realonda. In 1892 in Hong Kong and later in Dapitan, he successfully operated on her eyes.',
+    relatedEvent: 'Utilized during Rizal’s daily clinical rotations assisting Dr. Louis de Wecker at 55 Rue du Cherche-Midi in Paris, where up to 100 eye patients were examined each day.',
+    curatorNotes: 'Ophthalmology was a pioneering cutting-edge specialty in the 1880s following Helmholtz’s invention of the ophthalmoscope.',
+    badge: 'Medical Specialization Instrument'
+  },
+  {
+    id: 'flores-heidelberg',
+    title: '"A las Flores de Heidelberg" Autograph Poem',
+    subtitle: 'Written along the Neckar River (April 22, 1886)',
+    date: 'April 22, 1886',
+    location: 'Heidelberg, Germany',
+    medium: 'German botanical album page with dried forget-me-not flowers and sepia ink',
+    whatIsThis: 'The original handwritten manuscript of Rizal’s celebrated lyrical poem "To the Flowers of Heidelberg", composed while strolling along the banks of the Neckar River during the German springtime.',
+    whyIsItImportant: 'In this evocative verse, Rizal entrusted the blue forget-me-not blossoms with a message of peace, love, and loyalty to be carried across oceans to the suffering people of the Philippines. It captured the profound homesickness and spiritual dedication of the young expatriate patriot.',
+    relatedEvent: 'Composed while residing with Protestant pastor Karl Ullmer in the idyllic village of Wilhelmsfeld, reflecting Rizal’s admiration for German culture, domestic harmony, and religious tolerance.',
+    curatorNotes: 'The poem juxtaposes the vibrant renewal of European spring against the tropical beauty and colonial subjugation of his homeland.',
+    badge: 'Lyrical Masterpiece'
+  },
+  {
+    id: 'la-solidaridad-paper',
+    title: 'La Solidaridad (Año I, Número 1)',
+    subtitle: 'Quincenario Democrático (February 15, 1889)',
+    date: 'February 15, 1889',
+    location: 'Barcelona, Spain',
+    medium: 'Bi-weekly newsprint periodical, Spanish language, 8 pages folio',
+    whatIsThis: 'The inaugural issue of La Solidaridad, the official newspaper of the Filipino reform movement in Spain, founded by Graciano Lopez Jaena and funded through contributions from the Junta de la Propaganda in Manila.',
+    whyIsItImportant: 'It served for nearly seven years (1889–1895) as the principal organ of the Propaganda Movement. It published essays, legislative petitions, cultural defenses of pre-colonial civilization, exposés of monastic abuses, and demands for Philippine representation in the Spanish Cortes.',
+    relatedEvent: 'Launched in Barcelona and subsequently transferred in November 1889 to Madrid under the disciplined editorship of Marcelo H. del Pilar (Plaridel). Rizal contributed his most famous analytical essays to its pages.',
+    curatorNotes: 'Its editorial program outlined four non-negotiable aims: to champion democratic ideals in all spheres, oppose reaction, defeat every backward step, and foster liberal concepts.',
+    badge: 'Voice of the Propaganda Movement'
+  }
+];

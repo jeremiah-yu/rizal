@@ -1,0 +1,7 @@
+{
+  "name": "Jose Rizal: Education, Travels, and the Propaganda Movement",
+  "description": "An interactive digital history museum exploring the education, travels, intellectual development, and reform movement of Dr. Jose Rizal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
