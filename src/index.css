@@ -99,6 +99,17 @@
   }
 }
 
+@keyframes fadeSlideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 /* Full-bleed dark museum bands for readable light text */
 .museum-band {
   background: #140e09;

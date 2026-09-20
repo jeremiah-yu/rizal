@@ -276,12 +276,12 @@ export const TravelMap: React.FC<TravelMapProps> = ({
               </p>
             </div>
 
-            {/* SIDE PANEL — always anchored to the RIGHT of the map */}
+            {/* SIDE PANEL — always anchored to the LEFT of the map */}
             {panelOpen && activeDest && (
               <aside
                 id="map-side-panel"
-                className={`absolute z-40 inset-y-0 right-0 w-[min(92%,320px)] sm:w-[360px] md:w-[380px] border-l border-[#d4af37]/50 bg-[#1a120a]/97 backdrop-blur-md shadow-[-12px_0_40px_rgba(0,0,0,0.45)] flex flex-col overflow-hidden rounded-l-xl sm:rounded-l-2xl ${
-                  reduceMotion ? '' : 'animate-[fadeSlideIn_0.28s_ease-out]'
+                className={`absolute z-40 inset-y-0 left-0 w-[min(92%,320px)] sm:w-[360px] md:w-[380px] border-r border-[#d4af37]/50 bg-[#1a120a]/97 backdrop-blur-md shadow-[12px_0_40px_rgba(0,0,0,0.45)] flex flex-col overflow-hidden rounded-r-xl sm:rounded-r-2xl ${
+                  reduceMotion ? '' : 'animate-[fadeSlideInLeft_0.28s_ease-out]'
                 }`}
               >
                 <div className="flex items-start justify-between gap-2 p-4 border-b border-[#d4af37]/25 bg-[#22160e]/90">
