@@ -134,7 +134,7 @@ export const ThreeModelShowcase: React.FC<ThreeModelShowcaseProps> = ({
           <Box className="w-3.5 h-3.5 text-[#825c14] animate-pulse" />
           10 Interactive 3D Relics
         </div>
-        <h2 className="text-2xl sm:text-4xl md:text-5xl font-serif font-bold text-[#2a170a] tracking-wide mb-2 sm:mb-3 px-2">
+        <h2 className="text-2xl sm:text-4xl md:text-5xl font-serif font-bold !text-[#2a170a] tracking-wide mb-2 sm:mb-3 px-2">
           3D Artifact Rotunda
         </h2>
         <p className="text-sm sm:text-base text-[#4a3828] font-serif max-w-2xl mx-auto leading-relaxed px-2">

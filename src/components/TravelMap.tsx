@@ -2,10 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { TRAVEL_DESTINATIONS } from '../data/locations';
 import { MapDestination } from '../types';
 import {
-  Compass,
   Navigation2,
   MapPin,
-  User,
   Play,
   Pause,
   RotateCcw,
@@ -15,7 +13,6 @@ import {
   X,
 } from 'lucide-react';
 import { playPaperRustle, playMuseumChime } from '../utils/audio';
-import { FIRST_TRAVELS } from '../data/sourceNarrative';
 
 interface TravelMapProps {
   onOpenArtifact: (id: string) => void;
@@ -105,15 +102,11 @@ export const TravelMap: React.FC<TravelMapProps> = ({
     <section id="travel-map" className="relative border-t border-[#d4af37]/25 bg-[#140e09]">
       <div className="max-w-7xl mx-auto py-16 sm:py-20 px-4 sm:px-6">
         <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#2a1a0f] border border-[#d4af37]/40 text-xs text-[#e8c547] uppercase tracking-widest font-semibold mb-3">
-            <Compass className="w-3.5 h-3.5 text-[#e8c547]" />
-            Interactive Cartographic Odyssey
-          </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-[#fff8e8] tracking-wide mb-3">
-            Interactive Travel Map: Manila to Berlin
+          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#fff8e8] mb-3">
+            Manila to Berlin
           </h2>
-          <p className="text-sm sm:text-base text-[#e0d4c0] font-serif max-w-2xl mx-auto leading-relaxed">
-            {FIRST_TRAVELS.intro} Tap any numbered stop on the map to open its story beside the route.
+          <p className="text-lg text-[#e0d4c0] max-w-2xl mx-auto">
+            Tap a numbered stop. The story opens on the left.
           </p>
         </div>
 
@@ -310,43 +303,26 @@ export const TravelMap: React.FC<TravelMapProps> = ({
                 </div>
 
                 <div className="flex-1 overflow-y-auto antique-scroll p-4 space-y-3">
-                  {activeDest.penNameOrRole && (
-                    <div className="px-3 py-1.5 rounded bg-[#2b1b10] border border-[#d4af37]/30 text-xs text-[#ffe08a] font-serif italic">
-                      {activeDest.penNameOrRole}
-                    </div>
-                  )}
-
-                  <p className="text-sm text-[#f0e6d6] font-serif leading-relaxed">{activeDest.narrative}</p>
-
-                  <div className="p-3 rounded-lg bg-[#120c07] border-l-4 border-[#d4af37]">
-                    <strong className="text-[#ffe08a] text-xs block mb-1">Why it matters</strong>
-                    <p className="text-xs text-[#e0d4c0] leading-relaxed">{activeDest.significance}</p>
-                  </div>
-
-                  <div className="p-3 rounded-lg bg-[#170f08] border border-[#d4af37]/25">
-                    <div className="text-[10px] uppercase tracking-widest text-[#e8c547] font-semibold mb-1 flex items-center gap-1">
-                      <User className="w-3.5 h-3.5" />
-                      Related
-                    </div>
-                    <div className="font-serif font-bold text-sm text-[#fff0d1]">{activeDest.relatedWorkOrPerson}</div>
-                  </div>
-
+                  <p className="text-lg text-[#f0e6d6] leading-relaxed">{activeDest.narrative}</p>
+                  <p className="text-base text-[#e8dcc8] leading-relaxed border-l-4 border-[#d4af37] pl-3">
+                    {activeDest.significance}
+                  </p>
                   {activeDest.id === 'barcelona' && (
                     <button
                       id="btn-map-inspect-amor-patrio"
                       onClick={() => onOpenArtifact('amor-patrio')}
-                      className="w-full py-2.5 rounded-lg bg-[#382415] hover:bg-[#4d321d] border border-[#d4af37]/40 text-xs font-serif font-bold text-[#ffe08a] uppercase tracking-wider"
+                      className="w-full py-2.5 rounded-lg bg-[#382415] hover:bg-[#4d321d] border border-[#d4af37]/40 text-base font-bold text-[#ffe08a]"
                     >
-                      Inspect &quot;Amor Patrio&quot;
+                      Open “Amor Patrio”
                     </button>
                   )}
                   {activeDest.id === 'berlin' && (
                     <button
                       id="btn-map-inspect-noli"
                       onClick={() => onOpenArtifact('noli-me-tangere')}
-                      className="w-full py-2.5 rounded-lg bg-[#8b2626] hover:bg-[#a53232] text-xs font-serif font-bold text-white uppercase tracking-wider"
+                      className="w-full py-2.5 rounded-lg bg-[#8b2626] hover:bg-[#a53232] text-base font-bold text-white"
                     >
-                      Inspect First Edition &quot;Noli&quot;
+                      Open the Noli
                     </button>
                   )}
                 </div>

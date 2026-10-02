@@ -11,38 +11,38 @@ export const HERO_TAGLINE =
 export const EDUCATION_MANILA = {
   period: '1872–1882',
   intro:
-    'Jose Rizal began his formal schooling in Calamba under private tutors and his mother, Teodora Alonso, before being sent to Manila for higher studies. His years in Manila from 1872 to 1882 covered secondary and the start of collegiate education, shaping the intellectual foundation he later brought to Europe.',
+    'Rizal studied first in Calamba with tutors and his mother, Teodora Alonso, then in Manila from 1872 to 1882. This schooling is what he later carried to Europe.',
   ateneo: {
     period: '1872–1877',
     summary:
-      'Rizal enrolled at the Ateneo Municipal, run by the Jesuits, in June 1872 at around age eleven, shortly after the execution of the GOMBURZA. He initially boarded with a family friend in Intramuros before later living inside the Ateneo as an interno. He excelled academically, consistently earning the rank of sobresaliente and winning medals in religion, Latin, Spanish, and other courses. Jesuit teachers—notably Father Francisco de Paula Sanchez—encouraged his love of literature and the sciences. He graduated in March 1877 with the degree of Bachelor of Arts, delivering a graduation address, and earned recognition as a gold medalist. During this period he wrote early poems including “Mi Primera Inspiración” and later “A la Juventud Filipina” (1879), which won a literary contest of the Liceo Artistico-Literario de Manila.',
+      'He entered the Jesuit Ateneo in June 1872, about age eleven, soon after Gomburza were executed. He often ranked sobresaliente and won medals. Father Francisco de Paula Sanchez encouraged his writing. He graduated Bachelor of Arts in March 1877 and later wrote “A la Juventud Filipina” (1879).',
   },
   ust: {
     period: '1877–1882',
     summary:
-      'After the Ateneo, Rizal enrolled at the University of Santo Tomas in 1877. He first took Philosophy and Letters—reportedly to please his father—then shifted to Medicine, aiming eventually to treat his mother’s failing eyesight. He also studied at the Ateneo concurrently for a surveying and expert assessing course (perito agrimensor), completed around 1877–1878, though he could not claim the title until legal age. At UST he felt discrimination against Filipino students by some Dominican professors; disillusionment with friar-dominated higher education, plus the desire for thorough medical training, became major reasons for continuing his studies abroad.',
+      'At UST he took Philosophy and Letters, then Medicine, hoping to treat his mother’s eyes. He also finished surveying at the Ateneo but could not use the title until he was of legal age. Unfair treatment of Filipino students, and weak medical training, pushed him to study in Spain.',
   },
 };
 
 export const FIRST_TRAVELS = {
   period: '1882–1887',
   intro:
-    'Rizal left the Philippines secretly on May 3, 1882, sailing for Spain aboard the steamer Salvadora under the alias “Jose Mercado” to avoid suspicion. He traveled by way of Singapore, then through the Suez Canal, stopping at ports such as Colombo, Aden, and Mediterranean cities before reaching Barcelona.',
+    'On May 3, 1882 he left in secret on the steamer Salvadora as Jose Mercado. He sailed by Singapore and the Suez Canal, then reached Barcelona.',
   spain: {
     period: '1882–1885',
     summary:
-      'Rizal arrived in Barcelona in June 1882 and wrote his early essay “Amor Patrio” under the pen name “Laong Laan.” He then moved to Madrid, enrolling at the Universidad Central de Madrid in November 1882 for Medicine and later Philosophy and Letters. He earned his Licentiate in Medicine in June 1884 and the Licentiate in Philosophy and Letters in June 1885. In Madrid he lived frugally, joined the Filipino ilustrados, became active in the reform movement, joined a Masonic lodge, and took part in the Círculo Hispano-Filipino.',
+      'In Barcelona he wrote “Amor Patrio” as Laong Laan. In Madrid he earned a Licentiate in Medicine (1884) and in Philosophy and Letters (1885), and joined other Filipinos working for reform.',
   },
   franceGermany: {
     period: '1885–1887',
     summary:
-      'After Madrid, Rizal went to Paris in 1885, observing at hospitals and working briefly under ophthalmologist Dr. Louis de Wecker to gain practical eye-surgery training for his mother’s condition. In Germany—Heidelberg, Leipzig, and Berlin—he continued ophthalmology under Dr. Otto Becker, wrote “A las Flores de Heidelberg,” joined the Anthropological Society in Berlin, and published Noli Me Tangere in March 1887 with financial help from Maximo Viola. He toured parts of Europe with Viola before returning to the Philippines in August 1887.',
+      'In Paris he trained in eye surgery with Dr. Louis de Wecker. In Heidelberg he continued with Dr. Otto Becker and wrote “A las Flores de Heidelberg.” Noli Me Tangere was printed in Berlin in March 1887 with help from Maximo Viola. He returned home in August 1887.',
   },
 };
 
 export const HIGHER_EDUCATION = {
   intro:
-    'Rizal’s higher education was distinguished by its breadth: he pursued and completed formal studies in multiple fields across several countries—an unusually cosmopolitan academic path for a Filipino of his time.',
+    'Rizal studied in more than one country and more than one field. Degrees, eye-surgery training, and self-study later made him the leading voice of the reform movement.',
   pillars: [
     {
       title: 'University of Santo Tomas, Manila',
@@ -77,7 +77,7 @@ export const HIGHER_EDUCATION = {
 export const PROPAGANDA_MOVEMENT = {
   period: 'mid-1880s – early 1890s',
   intro:
-    'The Propaganda Movement was the reform campaign led mainly by ilustrados (educated Filipinos) based in Spain from roughly the mid-1880s to the early 1890s. Its central aim was not independence but assimilation and reform: representation of the Philippines in the Spanish Cortes, secularization of parishes, equal rights and treatment for Filipinos, freedom of the press, and an end to abuses by the friars and colonial officials.',
+    'Filipino students in Spain, from the mid-1880s to the early 1890s, asked for reform rather than independence: a voice in the Cortes, Filipino priests in parishes, equal rights, a free press, and an end to friar abuses.',
   keyFigures: [
     {
       name: 'Jose Rizal',
@@ -109,5 +109,5 @@ export const PROPAGANDA_MOVEMENT = {
     },
   ],
   decline:
-    'The movement gradually weakened due to lack of funds, internal rivalries and factionalism (including tensions between Rizal and del Pilar), and the Spanish government’s unwillingness to grant meaningful reforms. By the early 1890s, many Filipinos abroad—and leaders within the Philippines such as Andres Bonifacio—concluded that peaceful, assimilationist reform through Spain was not achievable, contributing to the shift toward the more radical, independence-oriented Katipunan.',
+    'The campaign weakened from lack of money, disagreements (including between Rizal and del Pilar), and Spain’s refusal to reform. By the early 1890s many Filipinos decided peaceful appeals were not enough.',
 };

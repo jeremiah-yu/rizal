@@ -220,7 +220,7 @@ export const Hero: React.FC<HeroProps> = ({
               loading="eager"
             />
           </div>
-          <p className="mt-3 text-center text-[11px] sm:text-xs text-[#7a644e] font-serif italic">
+          <p className="mt-3 text-center text-base text-[#5c4636] font-serif">
             Dr. José Protacio Rizal Mercado y Alonso Realonda · 1861–1896
           </p>
         </div>
@@ -276,7 +276,7 @@ export const Hero: React.FC<HeroProps> = ({
 
           <button
             id="view-curated-exhibits-button"
-            onClick={() => onOpenArtifact('ateneo-medal')}
+            onClick={() => onNavigateSection?.('relics')}
             className="px-6 py-4 rounded-lg bg-[#f4ecdd] hover:bg-[#eadecb] text-[#3d2b1f] border border-[#cbb793] text-sm font-semibold uppercase tracking-wider transition-colors flex items-center gap-2"
           >
             <Award className="w-4 h-4 text-[#7a5513]" />
@@ -307,7 +307,7 @@ export const Hero: React.FC<HeroProps> = ({
         {/* Down Indicator */}
         <div 
           onClick={handleStart}
-          className="mt-8 text-[#d4af37]/70 hover:text-[#fceda2] cursor-pointer animate-bounce transition-colors"
+          className="mt-8 text-[#7a5513] hover:text-[#2c1b10] cursor-pointer animate-bounce transition-colors"
         >
           <ChevronDown className="w-6 h-6" />
         </div>

@@ -1,15 +1,5 @@
 import React from 'react';
-import { 
-  TrendingDown, 
-  Coins, 
-  EyeOff, 
-  Users, 
-  Building, 
-  Flame, 
-  ArrowRight,
-  ShieldAlert,
-  Sparkles
-} from 'lucide-react';
+import { TrendingDown, Coins, EyeOff, Users, Building } from 'lucide-react';
 import { PROPAGANDA_MOVEMENT } from '../data/sourceNarrative';
 
 export const DeclineSection: React.FC = () => {
@@ -93,53 +83,6 @@ export const DeclineSection: React.FC = () => {
             </div>
           );
         })}
-      </div>
-
-      {/* The Historical Pivot & Crucible: From Peaceful Reform to Revolution */}
-      <div className="rounded-3xl border-2 border-[#d4af37]/50 bg-gradient-to-b from-[#2a170e] via-[#1e1008] to-[#140a05] p-8 sm:p-12 shadow-2xl relative overflow-hidden">
-        
-        {/* Glow accent */}
-        <div className="absolute -top-10 -right-10 w-72 h-72 bg-[radial-gradient(circle,rgba(212,175,55,0.15),transparent_70%)] pointer-events-none" />
-
-        <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#3d2414] border border-[#d4af37]/40 text-xs text-[#fceda2] uppercase tracking-widest font-semibold mb-4">
-            <Flame className="w-4 h-4 text-[#e07a5f]" />
-            The Crucible of Modern Philippine Nationhood
-          </div>
-
-          <h3 className="text-3xl sm:text-4xl font-serif font-black text-[#fff5e0] mb-4">
-            The Historical Conclusion & Lasting Legacy
-          </h3>
-
-          <p className="text-base sm:text-lg font-serif text-[#ded2be] leading-relaxed mb-6">
-            While the Propaganda Movement <strong>did not achieve its immediate legislative objectives</strong>—the Spanish Cortes never granted Philippine parliamentary representation, nor did the colonial government dismantle the vast friar estates—its true victory lay in an irreversible intellectual awakening.
-          </p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left mb-8">
-            <div className="p-4 rounded-xl bg-[#160d07] border border-[#d4af37]/20">
-              <strong className="text-[#fceda2] font-serif text-sm block mb-1">
-                Birth of National Identity
-              </strong>
-              <p className="text-xs text-[#c4b5a0] leading-relaxed font-serif">
-                Before Rizal and La Solidaridad, residents of the archipelago were divided as Tagalogs, Ilocanos, Visayans, or Moros. The Propaganda Movement forged the collective consciousness that they were all <strong>Filipinos</strong> sharing a common destiny.
-              </p>
-            </div>
-
-            <div className="p-4 rounded-xl bg-[#160d07] border border-[#d4af37]/20">
-              <strong className="text-[#fceda2] font-serif text-sm block mb-1">
-                Foundation for the 1896 Revolution
-              </strong>
-              <p className="text-xs text-[#c4b5a0] leading-relaxed font-serif">
-                When Rizal was exiled to Dapitan in July 1892, Andres Bonifacio recognized that peaceful assimilation was dead and founded the <strong>Katipunan (KKK)</strong>, utilizing Rizal’s writings as the moral and ideological fuel for the 1896 Revolution.
-              </p>
-            </div>
-          </div>
-
-          <div className="inline-block p-4 rounded-xl bg-[#22120b] border border-[#d4af37]/30 text-xs sm:text-sm font-serif italic text-[#fceda2]">
-            “The peaceful campaign for reform laid the indestructible intellectual scaffolding for Philippine national independence.”
-          </div>
-        </div>
-
       </div>
     </section>
   );
