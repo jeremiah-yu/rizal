@@ -152,8 +152,8 @@ export const PAGES: TopicPage[] = [
   },
   {
     id: 'closing',
-    label: 'Close the book',
-    navLabel: 'Close the book',
+    label: 'The End',
+    navLabel: 'The End',
     kicker: 'The end',
     title: 'The End',
     summary: 'The story of his education, travels, and the Propaganda Movement closes here.',

@@ -387,4 +387,20 @@
   background: rgba(230, 200, 120, 0.12);
 }
 
+.book-relics-btn {
+  padding: 0.75rem 1.6rem;
+  border: 1px solid #8a6840;
+  background: transparent;
+  color: #3a2816;
+  font-family: var(--font-cinzel);
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.book-relics-btn:hover {
+  background: rgba(138, 104, 64, 0.08);
+}
+
 

@@ -86,7 +86,7 @@ export default function App() {
   const index = NAV_PAGES.findIndex((item) => item.id === page);
   const next =
     page === 'timeline'
-      ? { id: 'closing' as PageId, label: 'Close the book' }
+      ? { id: 'closing' as PageId, label: 'The End' }
       : index >= 0 && index < NAV_PAGES.length - 1
         ? NAV_PAGES[index + 1]
         : null;
@@ -154,9 +154,6 @@ export default function App() {
               <p className="font-cinzel text-[0.72rem] tracking-[0.42em] uppercase text-[#e6c878]">
                 The end
               </p>
-              <h1 className="mt-6 font-cinzel text-4xl sm:text-6xl font-semibold tracking-[0.18em] text-[#f6e7b8]">
-                Close the book
-              </h1>
               <div className="book-cover-rule" />
               <p className="max-w-md font-serif text-xl sm:text-2xl leading-snug text-[#f3e6c4]">
                 Education, travels, and the Propaganda Movement
@@ -186,7 +183,14 @@ export default function App() {
             <div className="mt-8">
               {blocks && <Article blocks={blocks} />}
             </div>
-            {next && (
+            {next && next.id === 'relics' && (
+              <div className="mt-14 border-t border-[#e4ddd2] pt-8 text-center">
+                <button onClick={() => handleNavigate('relics')} className="book-relics-btn">
+                  3D Relics
+                </button>
+              </div>
+            )}
+            {next && next.id !== 'relics' && (
               <button
                 onClick={() => handleNavigate(next.id)}
                 className="mt-14 w-full text-left border-t border-[#e4ddd2] pt-6 group"
