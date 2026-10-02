@@ -71,15 +71,19 @@ export const PAGES: TopicPage[] = [
     kicker: '1882–1887',
     title: "Rizal's First Travels Abroad (1882–1887)",
     summary:
-      'On May 3, 1882 he left Manila in secret on the steamer Salvadora, using the name Jose Mercado. Paciano arranged the trip. He sailed through Singapore and the Suez Canal, then studied and wrote in Spain, France, and Germany.',
+      'From the secret departure on the Salvadora in May 1882 to the return to Manila in August 1887, stop by stop through Asia and Europe.',
     sections: [
       {
-        heading: 'Spain, 1882–1885',
-        text: 'He reached Barcelona in June 1882 and wrote “Amor Patrio” under the pen name Laong Laan. In Madrid he studied Medicine and Philosophy and Letters at the Universidad Central. He earned the licentiate in Medicine in 1884 and in Philosophy and Letters in 1885. He lived simply and joined other Filipino students working for reform.',
+        heading: 'Philippines to Spain, 1882',
+        text: 'He left Manila on May 3, 1882 as Jose Mercado, then stopped in Singapore, Ceylon, Aden, the Suez Canal, Naples, and Marseilles before Barcelona and Madrid.',
       },
       {
-        heading: 'France and Germany, 1885–1887',
-        text: 'In Paris he trained in eye surgery with Dr. Louis de Wecker, hoping to help his mother. In Heidelberg he continued with Dr. Otto Becker and wrote “A las Flores de Heidelberg.” In Berlin, with money from Maximo Viola, Noli Me Tangere was printed in March 1887. He returned to the Philippines in August 1887.',
+        heading: 'Paris, Germany, and the Noli, 1883–1887',
+        text: 'He trained in ophthalmology in Paris and Heidelberg, wrote in Wilhelmsfeld, and published Noli Me Tangere in Berlin in March 1887.',
+      },
+      {
+        heading: 'The way home, 1887',
+        text: 'He met Blumentritt in Leitmeritz, toured Vienna, Switzerland, and Rome, sailed from Marseilles in July, and reached Manila in August 1887.',
       },
     ],
   },
